@@ -19,16 +19,52 @@ background-color: #BA5B18;
 
 
 body {
-width: 70%;
+font-family: 'Josefin Sans', sans-serif;width: 75%;
 margin: 0 auto;
-background-color: #BA5B18;
+background-color: #4AC3AB;
 padding: 20px 40px;
 border: 1px solid #ddd;
 
 }
 
 header {
-background-color: red;
-color: ;
+padding: 20px 40px;
+font-family: 'Josefin Sans', sans-serif;
+background-color: #EDA107;
 }
+
+header h1 {
+font-size: 350%;
+font-family: 'Josefin Sans', sans-serif;
+
+
+
+}
+
+nav li {
+padding: 25px;
+font-size: 175%;
+list-style:none;
+margin-left:0;
+padding-left:0;
+display: inline;
+
+}
+
+table {
+width: 75%;
+
+}
+
+thead th {
+padding:5px;
+text-align:left;
+}
+
+td {
+padding-bottom: 10px;
+}
+
+
+
 
