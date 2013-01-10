@@ -66,5 +66,18 @@ padding-bottom: 10px;
 }
 
 
+.field {
+font-size: 125%;
+padding-top:15px;
 
+}
 
+.actions {
+padding-top:10px;
+padding-bottom:15px;
+}
+
+.Back {
+font-size: 110%;
+
+}
