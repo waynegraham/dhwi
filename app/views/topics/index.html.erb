@@ -6,7 +6,8 @@
   <tr>
     <th>Name</th>
     <th>Total Votes</th>
-    <th>Vote</th>
+    <th>Vote Up</th>
+    <th>Vote Down</th>
     <th>Remove Beer</th>
   </tr>
   </thead>
@@ -17,6 +18,7 @@
     <td><%= link_to topic.title, topic %></td>
     <td><%= pluralize(topic.votes.length, "vote") %></td>
     <td><%= button_to '+1', votes_path(topic_id: topic.id), method: :post, :class => 'button_to' %></td>
+   	<td><%= button_to '-1', votes_path(topic_id: topic.id), method: :post, :class => 'button_to' %></td>
     <td><%= link_to 'Delete', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
