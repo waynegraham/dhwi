@@ -114,5 +114,8 @@ font-size: 125%;
 font-size: 300%;
 }
 
+footer li {
+list-style:none;
+display:inline;
 
-
+}
